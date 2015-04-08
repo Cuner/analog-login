@@ -29,6 +29,7 @@ if(isset($_POST['id'])){
     echo 'Not Exiting Post Data';
 }
 
+
 $snoopy=new Snoopy;
 $snoopy->cookie=$login_cookie;
 $course_url='http://210.42.121.241/servlet/Svlt_QueryStuLsn?action=queryStuLsn';
