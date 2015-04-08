@@ -4,5 +4,7 @@ snoopy实现有验证码的模拟登录
 使用软件fiddler可以得到post/get过程中传输的数据包
 
 1.captcha.php文件在获得验证码的内容的同时获得了验证码的cookie，此cookcie存在本地cookie.txt文件里，在模拟登录时用到。
+
 2.page.php为一个html页面，其中包含账号、密码、验证码（此时的验证码图片正是captcha.php中获取的验证码），然后将这些数据post到login.php页面。
-2.login.php 使用snoopy类进行模拟登录，除了向登陆url进行三个数据的post，还有设置当前cookie为之前保存到本地cookie.txt文件里验证码的cookie。
+
+3.login.php 使用snoopy类进行模拟登录，除了向登陆url进行三个数据的post，还有设置当前cookie为之前保存到本地cookie.txt文件里验证码的cookie。
