@@ -6,8 +6,7 @@ header("Content-Type: text/html; charset=utf-8");
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
 <title>登陆页面</title>
-<body>
-       
+<body>     
 <div>
     <div id="main_contaier">
         <div id="loginBox">
